@@ -1,2 +1,6 @@
-/CNN_for_texts/Train_rev1.csv
-/CNN_for_texts/Train_rev1.csv.tar.gz
+/1_CNN_for_texts/Train_rev1.csv
+/1_CNN_for_texts/Train_rev1.csv.tar.gz
+/Lab1_NLP/Data/*
+/Lab1_NLP/__pycache__/*
+/Lab1_NLP/.ipynb_checkpoints/*
+/Lab1_NLP/tut1-model.pt
