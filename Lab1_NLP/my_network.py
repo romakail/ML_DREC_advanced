@@ -166,16 +166,16 @@ class Seq2Seq(nn.Module):
         outputs = torch.zeros(max_len, batch_size, trg_vocab_size).to(self.device)
         
         #last hidden state of the encoder is used as the initial hidden state of the decoder
-        print ('Seq2Seq src :', src.shape)
+#         print ('Seq2Seq src :', src.shape)
         hidden, cell = self.encoder(src)
-        print ('Seq2Seq hidden(src) :', hidden.shape)
+#         print ('Seq2Seq hidden(src) :', hidden.shape)
         
         #first input to the decoder is the <sos> tokens
         input = trg[0,:]
         
         for t in range(1, max_len):
             
-            print ("input, hidden", input.shape, hidden.shape)
+#             print ("input, hidden", input.shape, hidden.shape)
             output, hidden, cell = self.decoder(input, hidden, cell)
             outputs[t] = output
             teacher_force = random.random() < teacher_forcing_ratio
