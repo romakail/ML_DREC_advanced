@@ -1,0 +1,13 @@
+setup.py: line 3: pip: command not found
+--2019-11-02 20:21:01--  https://raw.githubusercontent.com/yandexdataschool/Practical_DL/fall18/xvfb
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.112.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.112.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 640 [text/plain]
+Saving to: ‘../xvfb’
+
+     0K                                                       100% 53,0M=0s
+
+2019-11-02 20:21:01 (53,0 MB/s) - ‘../xvfb’ saved [640/640]
+
+setup.py: line 7: pip: command not found
